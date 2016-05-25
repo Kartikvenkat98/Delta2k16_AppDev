@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/Linear_Layout">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:text="Increment"
+        android:id="@+id/button"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.28"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="66dp"
+        android:text="Reset"
+        android:id="@+id/button2"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.18"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
